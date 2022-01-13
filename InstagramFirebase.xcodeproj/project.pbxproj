@@ -31,6 +31,8 @@
 		0F5B9A02278C590F008A7591 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B9A01278C590F008A7591 /* CustomTextField.swift */; };
 		0F5B9A04278C6740008A7591 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B9A03278C6740008A7591 /* AuthenticationViewModel.swift */; };
 		0FC87BA4278D5C9A001A4791 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FC87BA3278D5C9A001A4791 /* GoogleService-Info.plist */; };
+		0FC9DCA1278FFDF600CE9735 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9DCA0278FFDF600CE9735 /* ProfileHeaderViewModel.swift */; };
+		0FC9DCA3279005B400CE9735 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC9DCA2279005B400CE9735 /* README.md */; };
 		0FDB6FB9278D677F00E3B575 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB6FB8278D677F00E3B575 /* ImageUploader.swift */; };
 		0FDB6FBB278D679000E3B575 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB6FBA278D679000E3B575 /* AuthService.swift */; };
 		93B61E5A8D1F33BBC2D72B3E /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508B7CA06F408FC6AD49DDC /* Pods_InstagramFirebase.framework */; };
@@ -63,6 +65,8 @@
 		0F5B9A01278C590F008A7591 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0F5B9A03278C6740008A7591 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		0FC87BA3278D5C9A001A4791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FC9DCA0278FFDF600CE9735 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		0FC9DCA2279005B400CE9735 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FDB6FB8278D677F00E3B575 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		0FDB6FBA278D679000E3B575 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		118B1A52404631D263DE6FF2 /* Pods-InstagramFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirebase/Pods-InstagramFirebase.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 		0F5B99C6278C06CC008A7591 = {
 			isa = PBXGroup;
 			children = (
+				0FC9DCA2279005B400CE9735 /* README.md */,
 				0F5B99D1278C06CD008A7591 /* InstagramFirebase */,
 				0F5B99D0278C06CD008A7591 /* Products */,
 				105B967341B7843C25D280FC /* Pods */,
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0F5B9A03278C6740008A7591 /* AuthenticationViewModel.swift */,
+				0FC9DCA0278FFDF600CE9735 /* ProfileHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			files = (
 				0F5B99DF278C06D1008A7591 /* LaunchScreen.storyboard in Resources */,
 				0FC87BA4278D5C9A001A4791 /* GoogleService-Info.plist in Resources */,
+				0FC9DCA3279005B400CE9735 /* README.md in Resources */,
 				0F5B99DC278C06D1008A7591 /* Assets.xcassets in Resources */,
 				0F5B99DA278C06CD008A7591 /* Main.storyboard in Resources */,
 			);
@@ -343,6 +350,7 @@
 				0F5B99D3278C06CD008A7591 /* AppDelegate.swift in Sources */,
 				0F0514C2278EC451002196DF /* User.swift in Sources */,
 				0F5B99F7278C09DF008A7591 /* ProfileController.swift in Sources */,
+				0FC9DCA1278FFDF600CE9735 /* ProfileHeaderViewModel.swift in Sources */,
 				0F0514C0278EC065002196DF /* Constants.swift in Sources */,
 				0F5B99EF278C0985008A7591 /* FeedController.swift in Sources */,
 				0F5B99ED278C07D6008A7591 /* MainTabController.swift in Sources */,
