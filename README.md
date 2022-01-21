@@ -2,7 +2,7 @@
 Tutorial app for cloning Instagram with Firebase
 
 
-# Users:
+## Users:
 
 flower@gmail.com
 batman@me.com
@@ -13,7 +13,7 @@ robin@test.com
 
 
 
-Authentication delegate protocol 
+## Authentication delegate protocol 
 
 AuthenticationDelegate
 
@@ -21,6 +21,10 @@ hoitaa sen, että kun olet onnistuneesti kirjautunut sisään niin näyttää se
 
 
 
-Uploading image to Firestore:
+
+## Uploading image to Firestore:
 
 ImageUploader: Uploadimage (hoitaa uploadingin ja palauttaa imageURL:n)
+
+## Image literal:
+        button.setImage(#imageLiteral(resourceName: "plus_photo"), for: .normal)

@@ -23,7 +23,7 @@ class NotificationController: UITableViewController {
     // MARK: API
     
     func fetchNotifications() {
-        NotificationService.fetchNotification { notifications in
+        NotificationService.fetchNotifications { notifications in
             self.notifications = notifications
             self.checkIfUserIsFollowed()
             //print("DEBUG: Notifications: \(notifications)")
